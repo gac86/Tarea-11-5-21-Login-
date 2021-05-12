@@ -7,17 +7,58 @@
 .login-card {
     display: flex;
     height: 500px;
-    width: 500px;
-    background-color: grey;
+    width: 350px;
+    background-color: white;
     justify-content: center;
     align-items: center;
-    border: 10px solid #A4A4A4;
+    border: 10px solid #64039d;
     border-radius: 10px;
+}
+
+.login-logo {
+    background-image: url('https://www.pinclipart.com/picdir/big/391-3911495_sign-up-login-transparent-login-logo-clipart.png');
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
 }
 
 .login-data {
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+}
+
+.user, .password {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.user-font, .password-font {
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #64039d;
+}
+
+.user-font {
+    margin-top: 35px;
+}
+
+.send-button {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 30px;
+    background-color: #64039d;
+    color: white;
+    border-style: none;
+}
+
+.send-button:hover {
+    cursor: pointer;
+}
+
+.send-button:active {
+    transform: translateY(1.5px);
 }
 
